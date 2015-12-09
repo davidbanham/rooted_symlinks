@@ -4,7 +4,9 @@
   "description": "Tests to expose the behaviour of NPM versions with root symlinks",
   "main": "test.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "preinstall": "rm node_modules/root || :",
+    "postinstall": "ln -s .. node_modules/root"
   },
   "repository": {
     "type": "git",

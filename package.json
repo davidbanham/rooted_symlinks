@@ -5,7 +5,6 @@
   "main": "test.js",
   "scripts": {
     "test": "node test.js",
-    "preinstall": "rm node_modules/root || :",
     "postinstall": "ln -s .. node_modules/root"
   },
   "repository": {

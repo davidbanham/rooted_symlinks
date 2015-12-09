@@ -10,4 +10,4 @@ Sadly, npm3 totally breaks this behaviour.
 
 [https://travis-ci.org/davidbanham/rooted_symlinks](https://travis-ci.org/davidbanham/rooted_symlinks)
 
-It seemd to ignore any module which can be reached through a symlink as part of it's de-duping process. In a project where someone has run `ln -s .. node_modules/root` that's every single module. Oh dear!
+It seems to ignore any module which can be reached through a symlink as part of it's de-duping process. In a project where someone has run `ln -s .. node_modules/root` that's every single module. Oh dear!

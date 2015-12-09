@@ -1,0 +1,22 @@
+{
+  "name": "rooted_symlinks",
+  "version": "1.0.0",
+  "description": "Tests to expose the behaviour of NPM versions with root symlinks",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbanham/rooted_symlinks.git"
+  },
+  "author": "david@banham.id.au",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbanham/rooted_symlinks/issues"
+  },
+  "homepage": "https://github.com/davidbanham/rooted_symlinks",
+  "dependencies": {
+    "bandname": "^1.0.0"
+  }
+}
